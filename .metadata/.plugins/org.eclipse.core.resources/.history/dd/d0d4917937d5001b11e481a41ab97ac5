@@ -1,0 +1,92 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title> Registro </title>
+</head>
+
+	<body>
+	<h3> Registro </h3>
+			<p>Nombre: Juan</p>
+			<p>Apellido: Perez</p>
+			<p>Género: Masculino</p>
+			<p>DNI: 35654986</p>
+			<p>CUIL: 20-35654986-2</p>
+			<p>Localidad: Almagro</p>
+			<p>Provincia: CABA</p>
+			<p>Apellido: Perez</p>
+			<p>Nombre: Juan</p>
+			<p>Apellido: Perez</p>
+			<div>
+				
+			</div>
+			
+			<div>
+				<select>
+					<option value='1'> Masculino </option>
+					<option value='2'> Femenino </option>
+					<option value='3'> Otro </option>
+				</select>
+			</div>
+		
+			<div>
+				<label for='edad'>Edad</label>
+				<input name='edad' type='number' placeholder='edad'>
+			</div>
+			
+			<div>
+				<label for='dni'>DNI</label>
+				<input name='dni' type='number' placeholder='dni'>
+				
+				<label for='cuil'>CUIL</label>
+				<input name='cuil' type='number' placeholder='cuil'>
+			</div>
+			
+			<div>
+				<select>
+					<option value='1'> CABA </option>
+					<option value='2'> Buenos Aires </option>
+				</select>
+				<select>
+					<option value='1'>Almagro</option>
+					<option value='2'> Atacama </option>
+					<option value='3'> Boedo </option>
+				</select>
+			</div>
+			
+			<div>
+				<label for='tel'>Teléfono</label>
+				<input name='tel' type='number' placeholder='Teléfono'>
+				
+				<label for='tel2'>Segundo Teléfono</label>
+				<input name='tel2' type='number' placeholder='Teléfono'>
+			</div>
+			
+			<div>
+				<label for='email'>Email</label>
+				<input name='email' type='number' placeholder='Email'>
+			</div>
+		
+		<div>
+			<label for='usuario'>Usuario</label>
+			<input name='usuario' 'placeholder='usuario'>
+		</div>
+	
+		<div>
+			<label for='pass'> Contraseña </label>
+			<input name='pass' type='password' placeholder='Contraseña'>
+			
+			<label for='pass2'> Repetir Contraseña </label>
+			<input name='pass2' type='password' placeholder='Contraseña'>
+		</div>
+		
+		<div>
+			<label for='Administrador'>¿Administrador?</label>
+			<input type='checkbox' name='Administrador'>
+		</div>
+		
+	</body>
+
+</html>

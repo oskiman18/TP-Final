@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title> Home </title>
+</head>
+
+	<body>
+		<form>
+			<div>
+				<label for='nombre'>Nombre</label>
+				<input name='nombre' type='text' placeholder='nombre'>
+				
+				<label for='apellido'>Apellido</label>
+				<input name='apellido' type='text' placeholder='apellido'>
+			</div>
+			
+			<div>
+				<select>
+					<option value='1'> Masculino </option>
+					<option value='2'> Femenino </option>
+					<option value='3'> Otro </option>
+				</select>
+			</div>
+		
+			<div>
+				<label for='edad'>Edad</label>
+				<input name='edad' type='number' placeholder='edad'>
+			</div>
+		
+		</form>
+	</body>
+
+</html>
